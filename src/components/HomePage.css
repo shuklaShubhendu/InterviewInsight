@@ -1,0 +1,49 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+}
+
+.upload-container {
+    text-align: center;
+    background-color: #333; /* Dark background for the form */
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px; /* Fixed width */
+    height: 400px; /* Fixed height for a square container */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upload-container h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.upload-container input[type="file"],
+.upload-container input[type="text"],
+.upload-container button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%; /* Adjust form elements width to fit within the square */
+}
+
+.upload-container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-container button:hover {
+    background-color: #555;
+}
+
+.spin-container {
+    display: none; /* Hide the spinning containers for now */
+}
